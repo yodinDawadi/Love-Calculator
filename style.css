@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.card{
+    width: 50%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 5%;
+}
+.input-field{  
+    padding-bottom: 5px; 
+    gap: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.inptxt{
+    font-size: large;
+    outline: none;
+    padding-left: 10px;
+    height: 50px;
+    width: 75%;
+    border-radius: 3rem;
+    border: 2px hotpink solid;
+}
+.radios{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: x-large;
+}
+input[type="radio"] {
+    transform: scale(1.75); 
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#calc-btn{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3rem;
+    color: white;
+    font-size: large;
+    background-color: hotpink;
+}
+/* navbar css starts here */
+nav{
+    text-align: center;
+    background-color:black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size:xx-large;
+    color: hotpink;
+}
+/* navbar css ends here */
+.card-heading{
+width: 100%;
+text-align: center;
+color: hotpink;
+font-size: xx-large;
+}
